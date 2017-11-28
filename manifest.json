@@ -1,0 +1,31 @@
+{
+
+  "manifest_version": 2,
+  "name": "URL2QRCode",
+  "description": "Converts Current URL to QRCode.",
+  "author": "skyfox",
+  "version": "0.1",
+  "icons": { 
+    "32": "data/images.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "page_action": {
+    "browser_style": true,
+    "default_icon": {
+      "32": "data/images.png"
+    },
+    "default_title" : "Click to convert URL to QRCode",
+    "default_popup": "data/index.html"
+  },
+
+  "permissions": [    
+    "tabs",
+    "activeTab",
+    "notifications",
+    "contextMenus",
+    "<all_urls>"]
+}

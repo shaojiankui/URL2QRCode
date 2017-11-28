@@ -1,0 +1,16 @@
+	body{
+		overflow: hidden;
+	}
+	#qr{
+		margin: 20px;
+	}
+	#tip{
+		margin-top: 5px;
+		padding-left: 15px;
+		padding-right: : 15px;
+		padding-bottom:  15px;
+
+	}
+	img {
+		overflow: hidden;
+	}
